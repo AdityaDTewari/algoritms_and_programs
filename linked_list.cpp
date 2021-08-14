@@ -118,7 +118,7 @@ int main()
     a.display();
     a.del_first();
     a.delete_last();
-    a.delete_pos(5);
+    a.delete_pos(2);
     a.insertAtPos(3, 6);
     a.display();
 }
