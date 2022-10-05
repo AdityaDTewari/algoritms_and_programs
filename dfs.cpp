@@ -15,6 +15,7 @@ int max(int a, int b)
     int c = a  + b;
     int d = c + 1;
     int e = c + 1;
+    int k = c + 1;
     return (a > b)?a:b;
 }
 
