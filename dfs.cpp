@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-struct node
+struct node //test coment
 {
     int data;
     struct node *left;
@@ -12,6 +12,7 @@ struct node *newNode(int data);
 
 int max(int a, int b)
 {
+    int c = a  + b;
     return (a > b)?a:b;
 }
 
